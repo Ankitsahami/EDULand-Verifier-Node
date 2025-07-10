@@ -56,9 +56,12 @@ The Gelato Relay API Key allows you to pay transaction fees using tokens like US
 
 4. Copy the API key from the app details page.
    <img width="2048" height="495" alt="image" src="https://github.com/user-attachments/assets/aee59274-eba5-43e2-a86c-373c50ba3778" />
- 5.  Fund your Gelato 1Balance with USDC from one of these chains to cover transaction fees. ( $1 to $2 is enough)
+ 5.  Fund your Gelato 1Balance with USDC from one of these chains to cover transaction fees. ( $1 to $2 is enough )
     <img width="628" height="800" alt="image" src="https://github.com/user-attachments/assets/12d4aeae-dfac-49fe-a695-58a775ae768b" />
-    ## 6. Downloading the Application
+
+
+
+    #6.  Downloading the Application
 
 ( this method is for mobile if you are a PC or a vps user than please use this guide https://notion.opencampus.xyz/How-to-run-EDULand-Verifier-Node-1885a6eae9638051a9ebc6e073137289)
 
@@ -66,13 +69,14 @@ The Gelato Relay API Key allows you to pay transaction fees using tokens like US
 
 
 1. first download the termux app from the play store
-   https://play.google.com/store/apps/details?id=com.termux
 
+   
+  https://play.google.com/store/apps/details?id=com.termux
 
 
    
-2. update it
-
+3. update it
+```bash
 
  pkg update
 
@@ -88,39 +92,39 @@ The Gelato Relay API Key allows you to pay transaction fees using tokens like US
 
  apt update && apt upgrade
 
-
+``` 
 
  
  3. install wget (if not installed)
 
-    
+```    
  apt install wget
-
+```
  
 4. now Download the application
 
 
-
-wget https://github.com/gelatodigital/verifier-node-educhain/releases/download/v1.0.2/edu-chain-verifier-node_1.0.0.8ede663-1_arm64.deb
-
+```
+wgethttps://github.com/gelatodigital/verifier-node-educhain/releases/download/v1.0.2/edu-chain-verifier-node_1.0.0.8ede663-1_arm64.deb
+```
 
 
 
 5. now install or unzip it
 
 
-
+```
 dpkg -i edu-chain-verifier-node_1.0.0.8ede663-1_arm64.deb
-
+```
 
 
 6. now run the node
-
+```
 
 edu-chain-verifier-node start
+```
 
-
-7. now hive your burner wallet private key with 0x
+7. now give your burner wallet private key with 0x
 
 
 8. your gelato api
