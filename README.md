@@ -61,7 +61,8 @@ The Gelato Relay API Key allows you to pay transaction fees using tokens like US
 
 
 
-    #6.  Downloading the Application
+    ### 6 . **Downloading the Application**
+
 
 ( this method is for mobile if you are a PC or a vps user than please use this guide https://notion.opencampus.xyz/How-to-run-EDULand-Verifier-Node-1885a6eae9638051a9ebc6e073137289)
 
