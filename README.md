@@ -76,7 +76,7 @@ The Gelato Relay API Key allows you to pay transaction fees using tokens like US
 
 
    
-3. update it
+2. update it
 ```bash
 
  pkg update
