@@ -61,11 +61,25 @@ The Gelato Relay API Key allows you to pay transaction fees using tokens like US
     ## 6. Downloading the Application
 
 ( this method is for mobile if you are a PC or a vps user than please use this guide https://notion.opencampus.xyz/How-to-run-EDULand-Verifier-Node-1885a6eae9638051a9ebc6e073137289)
+
+
+
+
 1. first download the termux app from the play store
    https://play.google.com/store/apps/details?id=com.termux
+
+
+
+   
 2. update it
+
+
  pkg update
+
+ 
  pkg upgrade
+
+ 
  pkg install proot-distro
 
  proot-distro install ubuntu
@@ -73,17 +87,54 @@ The Gelato Relay API Key allows you to pay transaction fees using tokens like US
  proot-distro login ubuntu
 
  apt update && apt upgrade
- 2. install wget (if not installed)
+
+
+
+ 
+ 3. install wget (if not installed)
+
+    
  apt install wget
-3. now Download the application
+
+ 
+4. now Download the application
+
+
+
 wget https://github.com/gelatodigital/verifier-node-educhain/releases/download/v1.0.2/edu-chain-verifier-node_1.0.0.8ede663-1_arm64.deb
-4. now install or unzip it 
+
+
+
+
+5. now install or unzip it
+
+
+
 dpkg -i edu-chain-verifier-node_1.0.0.8ede663-1_arm64.deb
-5. now run the node 
+
+
+
+6. now run the node
+
+
 edu-chain-verifier-node start
-6. now hive your burner wallet private key with 0x
-7. your gelato api 
-8. and your eduland nft number 
+
+
+7. now hive your burner wallet private key with 0x
+
+
+8. your gelato api
+
+
+9. and your eduland nft number
+
+
+
 <img width="572" height="1280" alt="image" src="https://github.com/user-attachments/assets/df7679a8-a63c-438e-8259-dac43403eefa" /> 
+
+
+
+
+
 and volah your node is running just make sure to not to close your terminal...........
 
